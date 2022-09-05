@@ -7,6 +7,7 @@ public class Blanks {
         String ord=scan.next();
         System.out.println(nbrBlanks(ord));
     }
+         
     public static int nbrBlanks(String s){
         int mellanslag=0;
         for(int i=0;i<s.length();i++){
